@@ -7,7 +7,9 @@ function App() {
   return (
     <div>
       {/* <button>Button</button> */}
-      <StyledButton>Styled button</StyledButton>
+      <StyledButton>Styled button</StyledButton><br />
+
+      <StyledButton variant='outline'>Styled button</StyledButton>
     </div>
   );
 }
