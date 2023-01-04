@@ -7,11 +7,13 @@ function App() {
   return (
     <div>
       {/* <button>Button</button> */}
-      <StyledButton>Styled button</StyledButton><br /><br />
+      <StyledButton type="submit">Styled button</StyledButton><br /><br />
 
       <StyledButton variant='outline'>Styled button</StyledButton><br /><br />
 
       <FancyButton as="a">Fancy Button</FancyButton><br /><br />
+
+      <SubmitButton>Submit Button</SubmitButton>
     </div>
   );
 }
