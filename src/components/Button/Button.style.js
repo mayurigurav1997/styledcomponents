@@ -1,5 +1,5 @@
 
-import styled from "styled-components"
+import styled, { keyframes } from "styled-components"
 
 export const StyledButton = styled.button`
       border: 2px solid #4caf50;
@@ -34,3 +34,4 @@ export const SubmitButton = styled(StyledButton).attrs({
         transform: translate(4px);
 
     }`
+
